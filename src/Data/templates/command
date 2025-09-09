@@ -1,0 +1,44 @@
+const { ApplicationCommandOptionType } = require("discord.js");
+
+module.exports = {
+    name: "",
+    description: "",
+    developer: false,
+    usage: [],
+    examples: [],
+    cooldown: 2,
+    permissions: {
+        client: [],
+        user: []
+    },
+    prefix: {
+        enabled: true,
+        aliases: [],
+        parameters: [],
+        subcommands: [
+            {
+                name: '',
+                aliases: [],
+                description: '',
+                parameters: [],
+                usage: [],
+                examples: [],
+                index: 1
+            }
+        ]
+    },
+    slash: {
+        enabled: true,
+        global: true,
+        options: [
+            {
+                name: '',
+                description: '',
+                type: ApplicationCommandOptionType.String,
+                required: false
+            }
+        ],
+    },
+    prefixRun: async (client, message, args) => { },
+    slashRun: async (client, interaction) => { }
+};

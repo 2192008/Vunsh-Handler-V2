@@ -1,0 +1,34 @@
+{
+  "version": "v1.0.0",
+  "developers": [
+    {
+      "username": "hatebeingsobercereal",
+      "id": "1012552248938729502"
+    }
+  ],
+  "support": "https://discord.gg/kDKMcweS6Y",
+  "errorLogs": "1412264362101440573",
+  "mongoose": {
+    "enabled": false
+  },
+  "prefix": {
+    "prefix": "!"
+  },
+  "slash": {
+    "testGuild": "1074850904810983494"
+  },
+  "statuses": [
+    {
+      "enabled": true,
+      "content": "{prefix}help",
+      "displayTime": 5,
+      "type": 3
+    },
+    {
+      "enabled": true,
+      "content": "Powered by Vunsh",
+      "displayTime": 10,
+      "type": 4
+    }
+  ]
+}
